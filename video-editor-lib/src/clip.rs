@@ -23,4 +23,17 @@ impl Clip {
             clip: None
         }
     }
+
+    pub fn new_template() -> Clip {
+        Clip {
+            path: "".to_string(),
+            inpoint: 0,
+            duration: 0,
+            start: 0,
+            is_video: false,
+            is_audio: false,
+            is_render_target: false,
+            clip: None
+        }
+    }
 }
