@@ -1,0 +1,9 @@
+[package]
+name = "video_editor_cli"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+video_editor_lib = { path = "../video-editor-lib" }

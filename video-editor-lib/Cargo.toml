@@ -1,0 +1,12 @@
+[package]
+name = "video_editor_lib"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+gst = { package = "gstreamer", version = "0.17.1" }
+ges = { package = "gstreamer-editing-services", version = "0.17.2" }
+ges_sys = { package = "gstreamer-editing-services-sys", version = "0.17.0" }
+gst_pbutils = {package = "gstreamer-pbutils", version = "0.17.2" }
