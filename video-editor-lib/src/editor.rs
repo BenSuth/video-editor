@@ -75,7 +75,6 @@ impl Editor {
             .set_state(gst::State::Playing)
             .unwrap();
 
-        // Wait until error or EOS
         let bus = pipeline.bus().unwrap();
         for msg in bus.iter_timed(gst::ClockTime::NONE) {
             use gst::MessageView;
