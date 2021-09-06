@@ -92,7 +92,6 @@ impl Editor {
             }
         }
 
-        // Shutdown pipeline
         pipeline
             .set_state(gst::State::Null)
             .expect("Unable to set the pipeline to the `Null` state");
