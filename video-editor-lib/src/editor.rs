@@ -15,7 +15,7 @@ fn generate_render_profile(output: &str) -> gst_pbutils::EncodingProfile {
 impl Editor {
     pub fn new(timeline: crate::timeline::Timeline) -> Editor {
         Editor {
-            timeline: timeline
+            timeline
         }
     } 
 

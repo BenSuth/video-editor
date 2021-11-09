@@ -14,12 +14,12 @@ impl Clip {
     pub fn new(path: &str, inpoint: u64, duration: u64, start: u64, is_video: bool, is_audio: bool, is_render_target: bool) -> Clip {
         Clip {
             path: path.to_string(),
-            inpoint: inpoint,
-            duration: duration,
-            start: start,
-            is_video: is_video,
-            is_audio: is_audio,
-            is_render_target: is_render_target,
+            inpoint,
+            duration,
+            start,
+            is_video,
+            is_audio,
+            is_render_target,
             clip: None
         }
     }
