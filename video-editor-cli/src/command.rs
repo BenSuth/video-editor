@@ -103,7 +103,7 @@ pub fn process_command_line(args: &Vec<String>) -> Result<(&str, video_editor_li
     }
 
     let timeline = video_editor_lib::timeline::Timeline {
-        clips: clips
+        clips
     };
 
     return Ok((output, timeline));
