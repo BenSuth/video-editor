@@ -14,4 +14,6 @@ fn main() {
     editor.init();
 
     editor.compile(output);
+
+    println!("Succesfully Compiled: {}", output);
 }
